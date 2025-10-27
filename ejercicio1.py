@@ -7,11 +7,11 @@ class Contador :
         self.inicio = inicio
         self.fin = fin
 
-    def __iter__ ( self ) :
+    def __iter__ (self):
         return self 
     
-    def __next__ ( self ) :
-        if self.inicio <= self.fin :
+    def __next__ (self):
+        if self.inicio <= self.fin:
             valor = self.inicio
             self.inicio += 1
             return valor
